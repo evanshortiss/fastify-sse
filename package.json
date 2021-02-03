@@ -1,5 +1,5 @@
 {
-  "name": "fastify-sse",
+  "name": "@evanshortiss/fastify-sse",
   "version": "0.1.5",
   "description": "Provide Server-Sent Events to Fastify",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lolo32/fastify-sse.git"
+    "url": "git+https://github.com/lolo32/fastify-sse.git"
   },
   "homepage": "https://github.com/lolo32/fastify-sse.git#readme",
   "author": "Lolo_32",
@@ -38,5 +38,8 @@
   "dependencies": {
     "fast-safe-stringify": "^1.2.0",
     "fastify-plugin": "^3.0.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
